@@ -1,0 +1,26 @@
+{
+  "name": "flikrFeed",
+  "homepage": "https://github.com/ALRW/flikrFeed",
+  "authors": [
+    "ALRW <awerner1@googlemail.com>"
+  ],
+  "description": "SPA showcasing new Flikr posts",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.9",
+    "angular-resource": "~1.4.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.9",
+    "angular-route": "~1.4.9"
+  }
+}

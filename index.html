@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="FlikrFeedDisplay">
+
+<head>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="app.js"></script>
+    <meta charset="UTF-8">
+    <title>Flikr Feed</title>
+</head>
+
+<body ng-controller="FeedController as feedCtrl" ng-init="init()">
+  <div>
+  <h2>Flikr Feed</h2>
+  </div>
+  <div>
+  <ul ng-repeat="profile in feedCtrl.profiles">
+    <li>
+      <img ng-src="{{profile.media.m}}">
+    </li>
+    <li>
+      <span><a href="{{profile.link}}">{{profile.title}}</a> by <a href="https://www.flickr.com/people/{{profile.author_id}}">{{profile.author}}</a></span>
+    </li>
+  </ul>
+  </div>
+</body>
+
+</html>
