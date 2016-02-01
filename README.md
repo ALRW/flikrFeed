@@ -8,4 +8,4 @@ Flikr Feed
 
 User Guide
 ----------
-This application is hosted on Heroku. To view it simply visit the following  [link]().
+This application is hosted on Heroku. To view it simply visit the following  [link](https://flikr-feed.herokuapp.com/).
